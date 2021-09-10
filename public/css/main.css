@@ -1,0 +1,166 @@
+html,
+body {
+  height: 100%;
+}
+
+body { 
+  padding-top: 56px; 
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+.main-wrapper {
+  min-height: 100%;
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.marg_wrapper {
+  padding-top: 20px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+#lightSwitch {
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+#carouselExampleCaptions {
+  height: 450px;
+  width: 800px;
+  overflow: hidden;
+  margin: auto;
+}
+
+#carouselExampleCaptions .carousel-inner {
+  height: 450px;
+  width: 800px;
+  overflow: hidden;
+}
+
+#carouselExampleCaptions .carousel-caption {
+font-size: 1.5em;
+position: absolute;
+top: 186px;
+font-family: 'Francois One',sans-serif;
+line-height: 1em;
+font-weight: bold;
+}
+
+#carouselExampleCaptions div {
+  border-radius: 2%;
+}
+
+#timerContainer {
+  width: 800px;
+  margin: auto;
+  margin-bottom : 20px;
+}
+
+#timerContainer img {
+  width: 70px;
+  height: 70px;
+}
+
+#timer {
+  float: right;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+  margin-top: 26px;
+  width: 730px;
+  height: 15px;
+  background: rgb(55, 114, 224);
+}
+
+.share {
+width: 800px;
+margin : auto;
+border-bottom: 2px solid #ccc;
+color: #777;
+}
+
+.share .label {
+float: left;
+text-transform: uppercase;
+font-size: 1.2em;
+padding-top: 5px;
+}
+
+.social-share {
+  float: right;
+  margin-top: 5px;
+}
+
+.fb-button {
+  margin-top: 2px;
+  float: left;
+  margin-right: 10px;
+}
+
+.tw-button {
+  margin-top: 2px;
+  float: right;
+}
+
+.rules {
+  width: 800px;
+  margin: .6em auto;
+  color: #777;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+#myTab {
+  width: 800px;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+}
