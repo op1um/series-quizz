@@ -89,11 +89,7 @@
             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
           </div>
-
-            {% for key, item in companies %}
-
-                {% endfor %}
-            {% endif %}
+        {% endif %}
 
         {% if is_granted('ROLE_USER') == false %}
           <a href="{{ path('app_login') }}" class="btn btn-info">
